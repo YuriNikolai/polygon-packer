@@ -126,7 +126,7 @@ def bh_function(values, S):
     return penalty
 
 def repetition(seed):
-    print("Attempt", seed)
+    print("Attempt", seed, "/", attempts)
 
     np.random.seed(seed)
     dynamic_S = np.sqrt(N) * (2 + np.random.rand() * 2)
